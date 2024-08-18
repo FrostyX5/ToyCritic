@@ -1,17 +1,8 @@
 .content h1 {
   color: crimson;
   position: absolute;
-  top: 0;
-  left: 46vw;
+  top: 10;
+  left: 44vw;
   display: block;
-  
-}
-
-.main {
-  background: black;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 50px;
 }

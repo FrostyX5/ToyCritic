@@ -1,0 +1,18 @@
+.search-bar {
+    display: block;
+    justify-content: left;
+    background: red;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-top: 70px;
+    right: 0;
+    position: absolute;
+}
+
+.search-bar p {
+    color: grey;
+}
+
+input, select, textarea {
+    color: white;
+}
