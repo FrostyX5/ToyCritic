@@ -19,6 +19,7 @@
 .container img {
     height: 20px;
     width: auto;
+    padding-right: 15px;
 }
 
 nav ul li {
