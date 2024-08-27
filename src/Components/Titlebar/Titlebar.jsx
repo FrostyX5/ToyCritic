@@ -1,13 +1,18 @@
 import React from 'react'
 import './TitleBar.css'
+import user_icon from '../../assets/user-icon.jpg'
 
 const TitleBar = () => {
     const title = 'Toy Critic';
 
     return (
-        <div className="container">
+        <nav className="container">
             <h3>{title}</h3>
-        </div>
+            <ul>
+                <li> <img src={user_icon}/></li>
+            </ul>
+           
+        </nav>
     )
 }
 
