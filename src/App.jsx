@@ -1,16 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from "./Components/Navbar/Navbar"
+import SearchBar from "./Components/SearchBar/SearchBar"
+import TitleBar from "./Components/TitleBar/TitleBar"
 
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
-      <div classNam="main">
-        <div className="content">
-          <h1>Toy Critic</h1>
-        </div>
-        <Navbar/>
+      <div className="main">
+        <TitleBar/>
+        <SearchBar/>
       </div>
   )
 }

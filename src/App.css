@@ -6,3 +6,8 @@
   display: block;
   font-size: 50px;
 }
+
+.main {
+  background: black;
+  color: yellow;
+}
