@@ -2,11 +2,11 @@
     display: block;
     justify-content: left;
     background: red;
-    border-radius: 100px;
     margin-right: 20px;
     margin-top: 55px;
     right: 0;
     position: absolute;
+    border: 1px ridge black;
 }
 
 .search-bar p {
@@ -15,4 +15,5 @@
 
 input, select, textarea {
     color: white;
+    padding: 1px;
 }
