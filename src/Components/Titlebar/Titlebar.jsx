@@ -9,7 +9,7 @@ const TitleBar = () => {
         <nav className="container">
             <h3>{title}</h3>
             <ul>
-                <li> <img src={user_icon}/></li>
+                <li><img src={user_icon}/></li>
             </ul>
            
         </nav>
