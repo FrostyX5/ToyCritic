@@ -1,12 +1,21 @@
 .search-bar {
     display: block;
     justify-content: left;
-    background: red;
     margin-right: 20px;
     margin-top: 55px;
     right: 0;
     position: absolute;
-    border: 1px ridge black;
+
+   /*  text-align: center;
+    margin-top: 50vh;
+    position: relative; */
+    
+}
+
+#query {
+    width: 400px;
+    height: 40px;
+    border-radius: 100px;
 }
 
 .search-bar p {
@@ -14,6 +23,6 @@
 }
 
 input, select, textarea {
-    color: white;
-    padding: 1px;
+    border: 4px inset crimson;
+    padding: 10px;
 }
