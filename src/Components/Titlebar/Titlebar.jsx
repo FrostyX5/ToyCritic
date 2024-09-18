@@ -1,6 +1,6 @@
 import React from 'react'
 import './TitleBar.css'
-import user_icon from '../../assets/user-icon.jpg'
+import user_icon from '../../assets/user-icon3.png'
 
 const TitleBar = () => {
     const title = 'Toy Critic';
